@@ -1,0 +1,402 @@
+/* Top account bar */
+.toolbar.account-toolbar {
+    background-color: #212121;
+}
+.feedback-button.account-toolbar {
+    background-color: #556576;
+}
+a.account-toolbar:hover:not(.feedback), .item.account-toolbar:hover {
+    background-color: rgba(255,255,255, 0.1);
+}
+
+/* Tools toolbar */
+.tools.tools-toolbar {
+    background-color: #2e2e2e;
+}
+.title.tools-toolbar {
+    background-color: #3b3b3b;
+}
+.other.tools-toolbar {
+    background-color: #3b3b3b;
+}
+.icon.tools-toolbar {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+a.tools-toolbar:hover {
+    background-color: #556576;
+}
+
+/* Summary section */
+.summary-section.account-selector {
+    background-color: #212121;
+}
+.account-name.selected.account-summary {
+    color: #556576;
+}
+.account-tag.v20.account-summary {
+    background-color: #d08770;
+}
+account-selector {
+    color: #cdd3de;
+}
+.margin-percent-tag.account-summary {
+    background-color: #556576;
+}
+.margin-percent-container.account-summary {
+    background-color: #3b3b3b;
+}
+.header.account-selector {
+    background-color: #3b3b3b;
+}
+
+/* Toggle elements */
+.dark.toggle-element {
+    background-color: #2e2e2e;
+    border-color: #212121;
+}
+.light.toggle-element {
+    background-color: #2e2e2e;
+    border-color: #212121;
+}
+.light.toggle-element .toggle-button.toggle-element {
+    background-color: #646464;
+    background-image: url(https://trade.oanda.com/components/toggle-element/images/down-arrow-dark-grey-b230337aec.svg);
+    border-right: none;
+    border-left: none;
+}
+.light.toggle-element .toggle-button.toggle-element:hover {
+    background-color: #888;
+}
+.p-DockPanel .p-DockPanel-handle {
+    background-color: #2e2e2e;
+}
+.p-DockPanel-handle-hover-container-hover, .p-DockPanel-handle-hover-container:hover {
+    background-color: #474747;
+}
+.p-DockPanel > .p-DockPanel-handle[data-orientation='horizontal'] {
+    border-right: 1px solid #212121;
+    border-left: 1px solid #212121;
+}
+.p-DockPanel > .p-DockPanel-handle[data-orientation='vertical'] {
+    border-top: 1px solid #212121;
+    border-bottom: 1px solid #212121;
+}
+.lm_toggle_button {
+    background-color: #646464;
+}
+.lm_toggle_button_left, .lm_toggle_button_right {
+    border-top: none;
+    border-bottom: none;
+}
+.lm_toggle_button:hover {
+    background-color: #888;
+}
+.lm_toggle_button_down, .lm_toggle_button_up {
+    border-right: none;
+    border-left: none;
+}
+.lm_toggle_arrow {
+    background-image: url(https://trade.oanda.com/components/toggle-element/images/down-arrow-dark-grey-b230337aec.svg);
+}
+
+/* List view quotes */
+.container.rates-component {
+    background-color: #212121;
+}
+.icon.rates-panel-selector {
+    opacity: 0.75;
+}
+list-view-quote {
+    background-color: rgba(255,255,255,0.05);
+    border-bottom: none;
+}
+list-view-quote:hover {
+    box-shadow: none;
+    background-color: rgba(255,255,255,0.025);
+}
+.symbol-text.list-view-quote {
+    color: rgba(255,255,255,0.8);
+}
+.bid.list-view-quote, .ask.list-view-quote {
+    color: rgba(255,255,255,0.7);
+}
+.arrow-container.list-view-quote {
+    display: none;
+}
+.bid.quote-change-decrease.list-view-quote, .ask-inner.quote-change-decrease.list-view-quote {
+    color: #ac8fa2;
+}
+.bid.quote-change-increase.list-view-quote, .ask-inner.quote-change-increase.list-view-quote {
+    color: #556576;
+}
+.bid-inner.list-view-quote:hover, .ask.list-view-quote:hover {
+    color: #516a83;
+}
+.spread-inner.list-view-quote {
+    background-color: #3b3b3b;
+    color: #e7edf8;
+}
+
+/* Panel view quotes */
+panel-view-quote {
+    border-bottom: none;
+}
+.header.panel-view-quote {
+    background-color: #2c2c2c;
+}
+.header.quote-change-increase.panel-view-quote {
+    background-color: #556576;
+}
+.header.quote-change-decrease.panel-view-quote {
+    background-color: #ac8fa2;
+}
+.quote.panel-view-quote {
+    background-color: #3b3b3b;
+    color: #cdd3de;
+}
+.quote.quote-change-increase.panel-view-quote {
+    color: #cdd3de;
+}
+.quote.quote-change-decrease.panel-view-quote {
+    color: #cdd3de;
+}
+.spread-text.panel-view-quote {
+    background-color: #212121;
+    color: #fff;
+}
+.ask.panel-view-quote {
+    border-color: #515151;
+}
+
+/* Edit view quote */
+.heading.edit-view {
+    background-color: #2c2c2c;
+}
+.drag-item.edit-view {
+    background-color: #3b3b3b;
+    border-color: #3b3b3b;
+}
+.container.edit-view-selected-instrument {
+    background-color: #3b3b3b;
+    color: #cdd3de;
+}
+.remove-btn.edit-view-selected-instrument {
+    -webkit-filter: grayscale(75%);
+    filter: grayscale(75%);
+}
+.container.edit-view-available-instrument {
+    background-color: #3b3b3b;
+    color: #cdd3de;
+}
+.add-btn.edit-view-available-instrument {
+    -webkit-filter: grayscale(75%);
+    filter: grayscale(75%);
+}
+.selected-list.edit-view {
+    background-color: #3b3b3b;
+}
+.available-list.edit-view {
+    background-color: #212121;
+}
+
+/* Chart */
+.chart-page {
+    background-color: #212121;
+}
+.chart-page .chart-container {
+    border: 1px solid #3b3b3b;
+}
+.symbol-search-dialog input, input.symbol-edit {
+    background-color: #474747;
+    color: #cdd3de;
+    border: none;
+}
+.symbol-edit-widget .symbol-edit-wrap.expanded {
+    box-shadow: 0 0 10px 10px #474747;
+}
+.favored-list-container span {
+    background: #474747;
+    color: #cdd3de;
+    border: none;
+}
+.feature-no-touch .favored-list-container span:hover {
+    background: #515151;
+    color: #cdd3de;
+}
+.feature-no-touch ._tv-dialog .button:not(.disabled):not(.selected):hover:before, .feature-no-touch ._tv-dialog .custom-select .switcher:not(.disabled):not(.selected):hover:before, .feature-no-touch ._tv-dialog .favored-list-container span:not(.disabled):not(.selected):hover:before, .feature-no-touch ._tv-dialog .submenu:not(.disabled):not(.selected):hover:before, .feature-no-touch .bottom-widgetbar-content.backtesting .button:not(.disabled):not(.selected):hover:before, .feature-no-touch .bottom-widgetbar-content.backtesting .custom-select .switcher:not(.disabled):not(.selected):hover:before, .feature-no-touch .bottom-widgetbar-content.backtesting .favored-list-container span:not(.disabled):not(.selected):hover:before, .feature-no-touch .bottom-widgetbar-content.backtesting .submenu:not(.disabled):not(.selected):hover:before, .feature-no-touch .header-chart-panel .button:not(.disabled):not(.selected):hover:before, .feature-no-touch .header-chart-panel .custom-select .switcher:not(.disabled):not(.selected):hover:before, .feature-no-touch .header-chart-panel .favored-list-container span:not(.disabled):not(.selected):hover:before, .feature-no-touch .header-chart-panel .submenu:not(.disabled):not(.selected):hover:before, .feature-no-touch .properties-toolbar .button:not(.disabled):not(.selected):hover:before, .feature-no-touch .properties-toolbar .custom-select .switcher:not(.disabled):not(.selected):hover:before, .feature-no-touch .properties-toolbar .favored-list-container span:not(.disabled):not(.selected):hover:before, .feature-no-touch .properties-toolbar .submenu:not(.disabled):not(.selected):hover:before {
+    border: none;
+}
+.favored-list-container span.active, .favored-list-container span.selected, .feature-no-touch .favored-list-container span:active, .feature-touch .favored-list-container span:active {
+    background: #515151 !important;
+    color: #cdd3de;
+}
+.favored-list-container span.submenu.interval-dialog-button {
+    border-right: 1px solid #646464;
+}
+.favored-list-container span.submenu i {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.bottom-widgetbar-content.backtesting .button, .header-chart-panel .button, .hotlist-controls .button, .symbol-edit-widget .button {
+    background: #474747;
+    color: #cdd3de;
+    border: none;
+}
+.feature-no-touch .header-chart-panel .button:hover, .feature-no-touch .symbol-edit-widget .button:hover {
+    background: #515151;
+    color: #cdd3de;
+}
+.favored-list-container.active span.submenu, .favored-list-container span.submenu.active {
+    background: #515151 !important;
+}
+.bottom-widgetbar-content.backtesting .button.active, .ch-controls .button.active, .feature-no-touch .bottom-widgetbar-content.backtesting .button:active, .feature-no-touch .ch-controls .button:active, .feature-no-touch .header-chart-panel .button.active:hover, .feature-no-touch .header-chart-panel .button:active, .feature-no-touch .hotlist-controls .button:active, .feature-no-touch .save-load-buttons .active:hover, .feature-no-touch .save-load-buttons a:not(.link):active, .feature-no-touch .symbol-edit-widget .button:active, .feature-touch .bottom-widgetbar-content.backtesting .button:active, .feature-touch .ch-controls .button:active, .feature-touch .header-chart-panel .button:active, .feature-touch .hotlist-controls .button:active, .feature-touch .save-load-buttons a:not(.link):active, .feature-touch .symbol-edit-widget .button:active, .header-chart-panel .button.active, .hotlist-controls .button.active, .save-load-buttons .active, .symbol-edit-widget .button.active {
+    background: #515151 !important;
+    color: #cdd3de;
+}
+.feature-no-touch .header-chart-panel .button.disabled:active, .feature-touch .header-chart-panel .button.disabled:active, .header-chart-panel .button.disabled, .header-chart-panel .button.disabled.active {
+    background: #3b3b3b !important; 
+}
+.layout-toggle-container ._tv-button {
+    background: #474747;
+    border: none;
+}
+.layout-toggle-container ._tv-button.active {
+    background: #515151 !important;
+}
+.layout-toggle-container ._tv-button.active svg {
+    fill: #cdd3de;
+}
+.layout-toggle-container ._tv-button.active:before {
+    border-color: transparent transparent #cdd3de;
+}
+.feature-no-touch ._tv-dialog ._tv-button:not(.ok):not(.cancel):not(.disabled):not(.delete):hover, .feature-no-touch ._tv-dialog .tv-select-container:not(.sbHolderDisabled):hover, .feature-no-touch .bottom-widgetbar-content.backtesting ._tv-button:not(.ok):not(.cancel):not(.disabled):not(.delete):hover, .feature-no-touch .bottom-widgetbar-content.backtesting .tv-select-container:not(.sbHolderDisabled):hover, .feature-no-touch .header-chart-panel ._tv-button:not(.ok):not(.cancel):not(.disabled):not(.delete):hover, .feature-no-touch .header-chart-panel .tv-select-container:not(.sbHolderDisabled):hover, .feature-no-touch .properties-toolbar ._tv-button:not(.ok):not(.cancel):not(.disabled):not(.delete):hover, .feature-no-touch .properties-toolbar .tv-select-container:not(.sbHolderDisabled):hover, .feature-no-touch .widgetbar-widgetheader .button:hover {
+    border: none;
+}
+
+/* Floating toolbar */
+.tv-floating-toolbar {
+    background-color: #474747;
+    border: none;
+    transition: none;
+}
+.tv-floating-toolbar__drag svg {
+    fill: #646464;
+}
+.tv-floating-toolbar__widget {
+    border-left: 1px solid #646464;
+}
+.tv-trading-toolbar__bs-button--sell {
+    background-color: rgba(172, 143, 162, 0.3);
+}
+.feature-no-touch .tv-trading-toolbar__bs-button--sell:active, .feature-no-touch .tv-trading-toolbar__bs-button--sell:hover, .feature-touch .tv-trading-toolbar__bs-button--sell:active {
+    background-color: rgba(172, 143, 162, 0.4);
+}
+.tv-trading-toolbar__bs-button--buy {
+    background-color: rgba(85, 101, 118, 0.3);
+}
+.feature-no-touch .tv-trading-toolbar__bs-button--buy:active, .feature-no-touch .tv-trading-toolbar__bs-button--buy:hover, .feature-touch .tv-trading-toolbar__bs-button--buy:active {
+    background-color: rgba(85, 101, 118, 0.4);
+}
+.tv-trading-toolbar__button-title--sell {
+    color: #ac8fa2;
+}
+.tv-trading-toolbar__button-title--buy {
+    color: #556576;
+}
+.tv-trading-toolbar__value {
+    color: #cdd3de;
+}
+.tv-trading-toolbar__value > .i-down {
+    color: #cdd3de;
+}
+.tv-trading-toolbar__value > .i-up {
+    color: #cdd3de;
+}
+.tv-trading-toolbar__qty-input, .tv-trading-toolbar__qty-spacer {
+    background: #474747;
+    color: #cdd3de;
+}
+.tv-trading-toolbar__qty-controls-wrapper {
+    border-left: 1px solid #515151;
+}
+.tv-trading-toolbar__qty-minus, .tv-trading-toolbar__qty-plus {
+    border-top: 1px solid #515151;
+}
+.tv-trading-toolbar__qty-plus svg {
+    fill: #556576;
+}
+.tv-trading-toolbar__qty-minus svg {
+    fill: #ac8fa2;
+}
+
+
+/* bottom control bar */
+.chart-controls-bar {
+    background: #3b3b3b
+}
+.chart-controls-bar-buttons a:before {
+    border-left: none;
+}
+.feature-no-touch .chart-controls-bar-buttons a:not(.disabled):hover {
+    background: rgba(255,255,255,0.1);
+    color: #cde3de;
+}
+.chart-controls-bar-buttons a.active, .feature-no-touch .chart-controls-bar-buttons a.active:hover {
+    color: #e7edf8;
+    stroke: #e7edf8;
+    fill: #e7edf8;
+}
+/* Market status */
+.tv-market-status--market {
+    color: #8399af;
+}
+.tv-market-status--market .tv-market-status__dot {
+    background-color: #8399af;
+}
+.feature-no-touch .pane-legend-icon svg:hover {
+    fill: #556576;
+}
+/* left toolbar */
+.tv-side-toolbar {
+    background: #212121;
+    border-right: rgba(255,255,255,0.1);
+}
+.drawing-favorites-toolbar .tools-group .button, .feature-no-touch .tv-side-toolbar .tools-group .button:active, .feature-no-touch .tv-side-toolbar .tools-group .button:hover, .feature-touch .tv-side-toolbar .tools-group .button:active, .properties-toolbar .tools-group .button, .tv-side-toolbar .tools-group .button.active, .tv-side-toolbar .tools-group .button.selected {
+    background-color: rgba(255,255,255,0.05);
+    border-color: rgba(255,255,255,0.1);
+}
+.drawing-favorites-toolbar .tools-group .button.active, .feature-no-touch .drawing-favorites-toolbar .tools-group .button:active, .feature-no-touch .properties-toolbar .tools-group .button:active, .feature-no-touch .tv-side-toolbar .tools-group .button:active .side, .feature-no-touch .tv-side-toolbar .tools-group .button:not(.subgroup):active, .feature-touch .drawing-favorites-toolbar .tools-group .button:active, .feature-touch .properties-toolbar .tools-group .button:active, .feature-touch .tv-side-toolbar .tools-group .button:active .side, .feature-touch .tv-side-toolbar .tools-group .button:not(.subgroup):active, .properties-toolbar .tools-group .button.active, .tv-side-toolbar .tools-group .button.active .side, .tv-side-toolbar .tools-group .button.selected .main, .tv-side-toolbar .tools-group .button:not(.subgroup).active, .tv-side-toolbar .tools-group .button:not(.subgroup).selected {
+    background-color: rgba(255,255,255,0.1);
+}
+.tv-side-toolbar .tools-group .button .side {
+    border-left: none;
+}
+.tv-side-toolbar .button.selected svg {
+    fill: #e7edf8;
+}
+.feature-no-touch .tv-side-toolbar .tools-group .button:hover .main.text-as-icon, .tv-side-toolbar .tools-group .button.selected .main.text-as-icon {
+    color: #fff;
+}
+
+/* Power bar */
+.base-selector.power-bar-web-component {
+    background-color: #474747;
+    color: #cdd3de;
+    border-right: 1px solid #515151;
+}
+.base-selector.power-bar-web-component:hover {
+    color: #cdd3de;
+}
+
+/* Portfolio manager */
+.positive.portfolio-manager {
+    color: #a3be8c;
+}
+.negative.portfolio-manager {
+    color: #bf616a;
+}
+.tab.selected.portfolio-manager {
+    color: #556576;
+}
