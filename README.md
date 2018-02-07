@@ -1,4 +1,4 @@
-![Coastal Theme](/assets/coastal-banner-oanda-web-trading.png?raw=true "Coastal theme for OANDA web trading platform")
+![Coastal Theme](/assets/coastal-banner-oanda-web-trader.png?raw=true "Coastal theme for OANDA web trading platform")
 
 ---
 
