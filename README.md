@@ -4,7 +4,7 @@
 
 ![Coastal Theme](/assets/screenshot.png?raw=true "Coastal theme for OANDA web trading platform")
 
-# Coastal OANDA Web Trader
+# Coastal Theme for OANDA Web Trader
 
 A minimal dark theme for the [OANDA Web Trading Platform](https://www.oanda.com/) that reflects a classy Pacific coast mood.
 
