@@ -331,6 +331,34 @@ panel-view-quote {
     fill: #ac8fa2;
 }
 
+/* Floating properties toolbar */
+.tv-linetool-properties-toolbar__color-picker .colorpicker-widget+svg .bg {
+    fill: #474747;
+}
+.feature-no-touch .tv-linetool-properties-toolbar__color-picker .colorpicker-widget+svg:hover .bg, .tv-linetool-properties-toolbar__color-picker .colorpicker-widget.i-active+svg .bg {
+    fill: #515151;
+}
+.tv-grouped-floating-toolbar__widget-wrapper {
+    background-color: #474747;
+}
+.feature-no-touch .tv-grouped-floating-toolbar__widget-wrapper:hover, .tv-grouped-floating-toolbar__widget-wrapper.i-dropped {
+    background-color: #515151;
+}
+.feature-no-touch .tv-linetool-properties-toolbar__button:hover, .tv-linetool-properties-toolbar__button.i-active, .tv-linetool-properties-toolbar__button.i-dropped {
+    background-color: #515151;
+}
+.i-active .tv-linetool-properties-toolbar__icon svg, .i-dropped .tv-linetool-properties-toolbar__icon svg {
+    fill: #cdd3de;
+}
+.tv-linetool-properties-toolbar__button.i-dropped .tv-linetool-properties-toolbar__caret {
+    color: #cdd3de;
+}
+.tv-grouped-floating-toolbar__widget-wrapper.i-dropped .tv-grouped-floating-toolbar__caret {
+    color: #cdd3de;
+}
+.tv-linetool-properties-toolbar__color-picker .colorpicker-widget.i-active+svg .icon {
+    fill: #cdd3de;
+}
 
 /* bottom control bar */
 .chart-controls-bar {
