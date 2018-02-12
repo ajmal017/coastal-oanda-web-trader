@@ -428,3 +428,183 @@ panel-view-quote {
 .tab.selected.portfolio-manager {
     color: #556576;
 }
+
+/* Order form */
+.oanda-order-dialog-0 .dialog-title.oanda-order-dialog {
+    background-color: #212121;
+}
+.oanda-order-dialog-0 paper-dialog.oanda-order-dialog > *.oanda-order-dialog {
+    background-color: #2e2e2e;
+}
+.oanda-order-dialog-0 .instrument-section.oanda-order-dialog {
+    border-bottom: none;
+}
+.oanda-order-dialog-0 .instrument.oanda-order-dialog {
+    color: #cdd3de;
+}
+.oanda-order-dialog-0 .rates-section.oanda-order-dialog .buy-sell-box.selected-box.oanda-order-dialog {
+    background-color: #556576;
+    border: 1px solid #556576;
+}
+.oanda-order-dialog-0 .rates-section.quote-change-increase.oanda-order-dialog .buy-sell-box.selected-box.oanda-order-dialog {
+    background: #a3be8c;
+    border: 1px solid #a3be8c;
+}
+.oanda-order-dialog-0 .rates-section.quote-change-decrease.oanda-order-dialog .buy-sell-box.selected-box.oanda-order-dialog {
+    background: #bf616a;
+    border: 1px solid #bf616a;
+}
+.oanda-order-dialog-0 .rates-section.oanda-order-dialog .spread-box.oanda-order-dialog {
+    background: #3b3b3b;
+    color: #fff;
+}
+.oanda-order-dialog-0 .rates-section.oanda-order-dialog .buy-sell-box.oanda-order-dialog {
+    background-color: #474747;
+    border: 1px solid #474747;
+    color: #fff;
+}
+.oanda-order-dialog-0 .rates-section.quote-change-decrease.oanda-order-dialog .buy-sell-box.oanda-order-dialog .buy-sell-box-rate-container.oanda-order-dialog {
+    color: #bf616a;
+}
+.oanda-order-dialog-0 .rates-section.quote-change-increase.oanda-order-dialog .buy-sell-box.oanda-order-dialog .buy-sell-box-rate-container.oanda-order-dialog {
+    color: #a3be8c;
+}
+.oanda-order-dialog-0 .type-selector.oanda-order-dialog a.oanda-order-dialog {
+    background-color: #474747;
+    border: 1px solid #515151;
+    color: #cdd3de;
+}
+.oanda-order-dialog-0 .type-selector.oanda-order-dialog a.active.oanda-order-dialog {
+    background-color: #556576;
+    border-color: #556576;
+}
+.oanda-order-dialog-0 .type-selector.oanda-order-dialog a.active.oanda-order-dialog {
+    color: #cdd3de;
+}
+.views-template-0 .vwap.views-template {
+    color: #556576;
+}
+.views-template-0 .depth-of-market-bar.views-template div.views-template {
+    border-color: #515151;
+}
+.views-template-0 .depth-of-market-button[data-selected].views-template {
+    background-color: #556576;
+}
+.oanda-number-input-0 .stepper.oanda-number-input {
+    border: 1px solid #515151;
+}
+.oanda-number-input-0 .stepper.oanda-number-input hr.oanda-number-input {
+    border-color: #515151;
+}
+.views-template-0 .error-label.views-template {
+    color: #bf616a;
+}
+.oanda-number-input-0 input.error.oanda-number-input {
+    color: #bf616a;
+}
+.oanda-number-input-0 .decrement.oanda-number-input:active {
+    background-color: #556576;
+}
+.oanda-number-input-0 .increment.oanda-number-input:active {
+    background-color: #556576;
+}
+.views-template-0 .reference-label.views-template {
+    color: #cdd3de;
+}
+.views-template-0 .reference-value.views-template {
+    color: #cdd3de;
+}
+.paper-progress-1 #progressContainer.paper-progress, .paper-progress-1 .indeterminate.paper-progress::after {
+    background: #474747;
+}
+.paper-progress-1 #progressContainer.paper-progress {
+    border-style: none;
+}
+.paper-progress-1 #secondaryProgress.paper-progress {
+    background: #556576;
+}
+.oanda-number-input-3 input.oanda-number-input {
+    border-color: #515151;
+}
+.oanda-number-input-3 .stepper.oanda-number-input {
+    border: 1px solid #515151;
+}
+.oanda-number-input-3 .stepper.oanda-number-input hr.oanda-number-input {
+    border-color: #515151;
+}
+.oanda-number-input-3 .decrement.oanda-number-input:active {
+    background-color: #556576;
+}
+.oanda-number-input-3 .increment.oanda-number-input:active {
+    background-color: #556576;
+}
+.views-template-0 .expiry-dropdown.views-template {
+    border-color: #515151;
+}
+.oanda-collapsable-field-0 {
+    color: #cdd3de;
+}
+.oanda-number-input-1 input.oanda-number-input {
+    border-color: #515151;
+}
+.oanda-number-input-1.active .label.oanda-number-input {
+    background-color: #556576;
+}
+.oanda-number-input-1 .label.oanda-number-input {
+    border: 1px solid #515151;
+}
+.oanda-number-input-1 .stepper.oanda-number-input {
+    border: 1px solid #515151;
+}
+.oanda-number-input-1 .stepper.oanda-number-input hr.oanda-number-input {
+    border-color: #515151;
+}
+.oanda-number-input-2 .label.oanda-number-input {
+    border: 1px solid #515151;
+    color: #cdd3de;
+}
+.oanda-number-input-2.active .label.oanda-number-input {
+    background-color: #556576;
+}
+.oanda-number-input-1 .label.oanda-number-input {
+    color: #cdd3de;
+}
+.oanda-collapsable-field-0 .error-label.oanda-collapsable-field {
+    color: #bf616a;
+}
+.oanda-number-input-1 input.error.oanda-number-input {
+    color: #bf616a;
+}
+.oanda-number-input-2 input.error.oanda-number-input {
+    color: #bf616a;
+}
+.oanda-number-input-1 .decrement.oanda-number-input:active {
+    background-color: #556576;
+}
+.oanda-number-input-1 .increment.oanda-number-input:active {
+    background-color: #556576;
+}
+.oanda-number-input-2 .increment.oanda-number-input:active {
+    background-color: #556576;
+}
+.oanda-number-input-2 .decrement.oanda-number-input:active {
+    background-color: #556576;
+}
+.oanda-number-input-2 .stepper.oanda-number-input {
+    border: 1px solid #515151;
+}
+.oanda-number-input-2 .stepper.oanda-number-input hr.oanda-number-input {
+    border-color: #515151;
+}
+.oanda-collapsable-field-0 .field-collapsed.oanda-collapsable-field {
+    border: 1px solid #515151;
+}
+.oanda-order-dialog-0 .time-stamp.oanda-order-dialog {
+    color: #cdd3de;
+}
+.oanda-order-dialog-0 .btn.oanda-order-dialog {
+    background-color: #556576;
+}
+.oanda-order-dialog-0 paper-button.oanda-order-dialog:hover {
+    background-color: #4d5864;
+}
