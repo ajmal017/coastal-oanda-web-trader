@@ -484,6 +484,9 @@ panel-view-quote {
 .views-template-0 .vwap.views-template {
     color: #556576;
 }
+.views-template-0 {
+    color: #cdd3de;
+}
 .views-template-0 .depth-of-market-bar.views-template div.views-template {
     border-color: #515151;
 }
@@ -523,7 +526,13 @@ panel-view-quote {
 .paper-progress-1 #secondaryProgress.paper-progress {
     background: #556576;
 }
+.paper-progress-0 #progressContainer.paper-progress, .paper-progress-0 .indeterminate.paper-progress::after {
+    background: #474747;
+    border: none;
+}
 .oanda-number-input-3 input.oanda-number-input {
+    background: #474747;
+    color: #cdd3de;
     border-color: #515151;
 }
 .oanda-number-input-3 .stepper.oanda-number-input {
@@ -539,12 +548,16 @@ panel-view-quote {
     background-color: #556576;
 }
 .views-template-0 .expiry-dropdown.views-template {
+    background-color: #474747;
+    color: #cdd3de;
     border-color: #515151;
 }
 .oanda-collapsable-field-0 {
     color: #cdd3de;
 }
 .oanda-number-input-1 input.oanda-number-input {
+    background-color: #474747;
+    color: #cdd3de;
     border-color: #515151;
 }
 .oanda-number-input-1.active .label.oanda-number-input {
@@ -578,6 +591,11 @@ panel-view-quote {
 .oanda-number-input-2 input.error.oanda-number-input {
     color: #bf616a;
 }
+.oanda-number-input-2 input.oanda-number-input {
+    background-color: #474747;
+    color: #cdd3de;
+    border-color: #515151;
+}
 .oanda-number-input-1 .decrement.oanda-number-input:active {
     background-color: #556576;
 }
@@ -607,4 +625,9 @@ panel-view-quote {
 }
 .oanda-order-dialog-0 paper-button.oanda-order-dialog:hover {
     background-color: #4d5864;
+}
+.oanda-number-input-0 input.oanda-number-input {
+    background: #474747;
+    color: #cdd3de;
+    border-color: #515151;
 }
