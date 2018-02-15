@@ -631,3 +631,15 @@ panel-view-quote {
     color: #cdd3de;
     border-color: #515151;
 }
+
+/* Dialog box */
+._tv-dialog {
+    background: #2e2e2e;
+    border: none;
+}
+.symbol-edit-popup-td.desc strong, .symbol-edit-popup-td.name strong {
+    color: #556576;
+}
+.feature-no-touch tr.symbol-edit-popup:hover:not(.group-title) {
+    background: #262626;
+}
